@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(19, 19, 19);
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.page{
+    text-align: center;
+    background-color: #252525;
+    padding: 40px;
+    border-radius: 10px;
+}
+.page .user img{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 17px;
+}
+.page .user h3 {
+    color: #fff;
+    font-size: 21px;
+}
+.page .user p {
+    color: rgb(179, 240, 89);
+    font-size: 13px;
+    margin-top: 10px;
+}
+.page .user span{
+    color: rgb(194, 194, 194);
+    font-size: 14px;
+    display: block;
+    margin-top: 25px;    
+}
+.page .social{
+    list-style: none;
+    color: #fff;
+    min-width: 300px;
+    margin-top: 25px;
+}
+.page .social li{
+    padding: 13px 20px;
+    background-color: rgb(77, 77, 77);
+    margin-top: 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: .5px;
+    cursor: pointer;
+    transition: .3s;
+}
+.page .social li:hover{
+    background-color: rgb(109, 170, 17);
+    color: #fff;
+}
